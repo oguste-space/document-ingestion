@@ -2,7 +2,7 @@ OCR SCAN / exported 2025-04-06 / batch 07A
 --- page 1 of 2 ---
 Bail commercial - Galerie Atlas - Unit A14
 Tenant: Atelier Lumiere SARL
-Annual rent EUR: 92000
+Annual rent EUR: 92000.00
 Lease end: 2032-09-30
 Dossier : GL-AT-2025/04  Ref: note 1458
 Some scan artefacts: l1gne / I.O0 / ....

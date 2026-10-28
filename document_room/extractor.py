@@ -1,8 +1,10 @@
 """Extract structured fields and source references from OCR text."""
+
 import re
 from dataclasses import dataclass
 from datetime import date
 from pathlib import PurePosixPath
+
 from .model import Document, DocumentKind, ExtractedFact, FactField
 
 
@@ -20,7 +22,12 @@ FIELD_ALIASES = (
     FieldAlias("parcel", FactField.PARCEL_ID),
 )
 KEY_VALUE = re.compile(r"^\s*([A-Za-z ]{3,30})\s*:\s*(.+?)\s*$")
-EXTRACTABLE_KINDS = {DocumentKind.LEASE, DocumentKind.RENT_STATEMENT, DocumentKind.TITLE_DEED, DocumentKind.TECHNICAL_REPORT}
+EXTRACTABLE_KINDS = {
+    DocumentKind.LEASE,
+    DocumentKind.RENT_STATEMENT,
+    DocumentKind.TITLE_DEED,
+    DocumentKind.TECHNICAL_REPORT,
+}
 
 
 def extract_facts(document: Document) -> list[ExtractedFact]:
@@ -43,12 +50,14 @@ def extract_facts(document: Document) -> list[ExtractedFact]:
         label = " ".join(raw_key.lower().split())
         alias = next((item for item in FIELD_ALIASES if item.label == label), None)
         if alias is not None and value.strip():
-            facts.append(ExtractedFact(
-                property_id=document.property_id,
-                field=alias.field,
-                value=value.strip(),
-                source_reference=PurePosixPath(document.path).name,
-                line=line_number,
-                reference_date=reference_date,
-            ))
+            facts.append(
+                ExtractedFact(
+                    property_id=document.property_id,
+                    field=alias.field,
+                    value=value.strip(),
+                    source_reference=PurePosixPath(document.path).name,
+                    line=line_number,
+                    reference_date=reference_date,
+                )
+            )
     return facts
