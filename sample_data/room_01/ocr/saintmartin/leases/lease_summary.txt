@@ -1,0 +1,8 @@
+Scan timestamp 2025-04-11T09:11:02
+Bail commercial - Passage Saint-Martin
+Tenant: Librairie des Vents
+Annual rent EUR: 63500
+Lease end: 2029-12-31
+Blue ink mark at bottom of page.
+Reference date: 2025-04-01
+Rent basis: annual base rent, EUR, excluding VAT and service charges

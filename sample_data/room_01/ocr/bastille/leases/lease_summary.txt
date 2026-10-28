@@ -1,0 +1,10 @@
+Receipt 04-B / image-to-text
+Bail commercial - Residence Bastille, Unit K03
+Tenant: Studio Rive Gauche
+Annual rent EUR: 145000
+Lease end: 2030-06-30
+Reference 44-0 / unknown OCR glyphs # #
+This contract excludes the roof terrace and technical rooms.
+Appendix A is missing from source scan.
+Reference date: 2025-04-01
+Rent basis: annual base rent, EUR, excluding VAT and service charges

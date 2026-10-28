@@ -1,0 +1,121 @@
+{
+  "room_id": "DEMO-ROOM-001",
+  "documents": [
+    {
+      "document_id": "atlas-lease-01",
+      "path": "ocr/atlas/leases/lease_summary.txt",
+      "received_at": "2025-04-02",
+      "property_id": "atlas"
+    },
+    {
+      "document_id": "bastille-lease-02",
+      "path": "ocr/bastille/leases/lease_summary.txt",
+      "received_at": "2025-04-03",
+      "property_id": "bastille"
+    },
+    {
+      "document_id": "saintmartin-lease-03",
+      "path": "ocr/saintmartin/leases/lease_summary.txt",
+      "received_at": "2025-04-04",
+      "property_id": "saintmartin"
+    },
+    {
+      "document_id": "atlas-deed-04",
+      "path": "ocr/atlas/deeds/title_deed.txt",
+      "received_at": "2025-04-05",
+      "property_id": "atlas"
+    },
+    {
+      "document_id": "bastille-deed-05",
+      "path": "ocr/bastille/deeds/title_deed.txt",
+      "received_at": "2025-04-06",
+      "property_id": "bastille"
+    },
+    {
+      "document_id": "saintmartin-deed-06",
+      "path": "ocr/saintmartin/deeds/title_deed.txt",
+      "received_at": "2025-04-07",
+      "property_id": "saintmartin"
+    },
+    {
+      "document_id": "atlas-technical-07",
+      "path": "ocr/atlas/technical/diagnostic_energy.txt",
+      "received_at": "2025-04-08",
+      "property_id": "atlas"
+    },
+    {
+      "document_id": "bastille-technical-08",
+      "path": "ocr/bastille/technical/diagnostic_energy.txt",
+      "received_at": "2025-04-09",
+      "property_id": "bastille"
+    },
+    {
+      "document_id": "saintmartin-technical-09",
+      "path": "ocr/saintmartin/technical/diagnostic_energy.txt",
+      "received_at": "2025-04-10",
+      "property_id": "saintmartin"
+    },
+    {
+      "document_id": "atlas-tax-10",
+      "path": "ocr/atlas/finance/tax_2025.txt",
+      "received_at": "2025-04-11",
+      "property_id": "atlas"
+    },
+    {
+      "document_id": "bastille-tax-11",
+      "path": "ocr/bastille/finance/tax_2025.txt",
+      "received_at": "2025-04-01",
+      "property_id": "bastille"
+    },
+    {
+      "document_id": "saintmartin-tax-12",
+      "path": "ocr/saintmartin/finance/tax_2025.txt",
+      "received_at": "2025-04-02",
+      "property_id": "saintmartin"
+    },
+    {
+      "document_id": "atlas-invoice-13",
+      "path": "ocr/atlas/finance/invoice_0041.txt",
+      "received_at": "2025-04-03",
+      "property_id": "atlas"
+    },
+    {
+      "document_id": "bastille-invoice-14",
+      "path": "ocr/bastille/finance/invoice_0041.txt",
+      "received_at": "2025-04-04",
+      "property_id": "bastille"
+    },
+    {
+      "document_id": "atlas-visit-15",
+      "path": "ocr/atlas/notes/site_visit.txt",
+      "received_at": "2025-04-05",
+      "property_id": "atlas"
+    },
+    {
+      "document_id": "bastille-visit-16",
+      "path": "ocr/bastille/notes/site_visit.txt",
+      "received_at": "2025-04-06",
+      "property_id": "bastille"
+    },
+    {
+      "document_id": "atlas-rent-statement-17",
+      "property_id": "atlas",
+      "path": "ocr/atlas/finance/rent_statement.txt",
+      "received_at": "2025-04-07"
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "atlas",
+      "name": "Local A14 — Galerie Atlas"
+    },
+    {
+      "property_id": "bastille",
+      "name": "Local K03 — Résidence Bastille"
+    },
+    {
+      "property_id": "saintmartin",
+      "name": "Local — Passage Saint-Martin"
+    }
+  ]
+}

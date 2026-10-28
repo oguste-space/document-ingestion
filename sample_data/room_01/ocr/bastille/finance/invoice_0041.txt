@@ -1,0 +1,5 @@
+FACTURE 0041 - MAINTENANCE
+Company: Climafac
+Billing period: March 2025
+Total ex VAT: 1550.00
+Payment terms: 30 days

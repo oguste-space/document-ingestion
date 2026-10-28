@@ -1,0 +1,6 @@
+[project]
+name = "document-ingestion"
+version = "0.1.0"
+description = "OCR document ingestion and structured reporting"
+requires-python = ">=3.10"
+dependencies = []

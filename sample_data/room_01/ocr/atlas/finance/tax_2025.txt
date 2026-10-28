@@ -1,0 +1,5 @@
+Taxe fonciere - ANNEE 2025
+COMMUNE: sample city
+Property id GL-AT
+Sum payable: EUR 44 980
+Amount has a separate annex.

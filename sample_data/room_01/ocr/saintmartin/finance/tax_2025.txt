@@ -1,0 +1,4 @@
+Taxe fonciere - ANNEE 2025
+Property id PA-SM
+Sum payable: EUR 22 400
+Bank reference: DEMO (not a payment instruction)

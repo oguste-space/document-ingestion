@@ -1,0 +1,4 @@
+Taxe fonciere - ANNEE 2025
+Property id RE-BA
+Sum payable: EUR 52 100
+Assessment status: provisional
